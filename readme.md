@@ -7,12 +7,12 @@
 # Techs/Libs/Frameworks:
 
 - Node.js;
-- Express;
-- Cors;
-- Dotenv;
-- MySQL;
-- MySQL-Migrations;
-- nodemon; -D
+- express;
+- cors;
+- dotenv;
+- mysql;
+- mysql-migrations;
+- nodemon;
 
 # Estrutura:
 
@@ -31,9 +31,9 @@
 - Clone o repositório em sua máquina;
 - Abra o terminal e navegue até a pasta do projeto;
 - Instale as dependências do projeto utilizando o comando `npm install`;
-- Se atente ao exemplo de uso para varíaveis de ambiente, dessa forma o projeto irá funcionar corretamente, `.env_example`;
+- O arquivo `.env_example` mostra um exemplo para varíaveis de ambiente, caso necessário;
 - Verifique no arquivo Package.json os Scripts para rodar a aplicação `npm run dev` / `npm start`;
-- Acesse a API através do endereço http://localhost:3002;
+- Acesse a API através do endereço `http://localhost:3002`;
 
 # Endpoints disponíveis:
 
