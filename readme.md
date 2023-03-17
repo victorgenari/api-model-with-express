@@ -18,9 +18,9 @@
 
 ## O projeto está dividido nas seguintes pastas:
 
-`routes:` Contém as rotas da API e seus respectivos controladores;
-`controllers:` Contém as funções que manipulam os dados da API;
-`repositories:` Contém as funções que comunicam com o Banco de Dados;
+- `routes:` Contém as rotas da API e seus respectivos controladores;
+- `controllers:` Contém as funções que manipulam os dados da API;
+- `repositories:` Contém as funções que comunicam com o Banco de Dados;
 
 # Como executar/rodar a aplicação:
 
