@@ -33,7 +33,7 @@
 - Instale as dependências do projeto utilizando o comando `npm install`;
 - O arquivo `.env_example` mostra um exemplo para varíaveis de ambiente, caso necessário;
 - Verifique no arquivo Package.json os Scripts para rodar a aplicação `npm run dev` / `npm start`;
-- Acesse a API através do endereço `http://localhost:3002`;
+- Acesse a API em sua máquina através do endereço `http://localhost:3002`;
 
 # Endpoints disponíveis:
 
