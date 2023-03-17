@@ -37,44 +37,10 @@
 
 # Endpoints disponíveis:
 
-<Table>
-    <thead>
-        <tr>
-            <th>Endpoint</th>
-            <th>HTTP Method</th>
-            <th>Description</th>
-        </tr>
-    </thead>
-
-    <tbody>
-        <tr>
-            <td>/people</td>
-            <td>GET</td>
-            <td>Get all people</td>
-        </tr>
-
-        <tr>
-            <td>/people/:id</td>
-            <td>GET</td>
-            <td>Get people by id</td>
-        </tr>
-
-        <tr>
-            <td>/people</td>
-            <td>POST</td>
-            <td>Create people</td>
-        </tr>
-
-        <tr>
-            <td>/people/:id</td>
-            <td>PUT</td>
-            <td>Update people</td>
-        </tr>
-
-        <tr>
-            <td>/people/:id</td>
-            <td>DELETE</td>
-            <td>Delete people</td>
-        </tr>
-    </tbody>
-</Table>
+| Endpoint       | HTTP Method | Description      |
+| -------------- | -----------| ---------------- |
+| /people        | GET        | Get all people   |
+| /people/:id    | GET        | Get people by id |
+| /people        | POST       | Create people    |
+| /people/:id    | PUT        | Update people    |
+| /people/:id    | DELETE     | Delete people    |
