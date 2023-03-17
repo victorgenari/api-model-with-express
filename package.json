@@ -1,0 +1,26 @@
+{
+  "name": "apiexample",
+  "version": "1.0.0",
+  "description": "Example of creating an api using express, javascript and mysql",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node src/index.js",
+    "migrate:up": "node migration.js up",
+    "migrate:down": "node migration.js down",
+    "migrate:create": "node migration.js add migration",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "João Victor Genari",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "mysql-migrations": "^1.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
